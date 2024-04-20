@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/*Fonte ALL*/
+* {
+  font-family: 'Roboto Mono';
+}
+
+/*Cabeçalho ALL*/
+header{
+  display: flex;
+  justify-content: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+nav a{
+  text-decoration: none;
+  color: dimgray;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+nav a.active{
+  border-bottom: 2px solid black;
+}
+
+/*Texto Principal HOME*/
+.Mainzin{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.MainTxt{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 100px;
+  font-size: 25px;
+}
+
+.mainButton{
+  width: 297px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+/*Imagem HOME*/
+.MainImagem{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+    margin-right: 40px;
+}
+
+/*Cards HOME*/
+.AllCards{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+
+}
+
+.Card{
+  width: 309px;
+  height: auto;
+  padding: 20px;
+  border-radius: 15px;
+  margin-left: 25px;
+}
+
+.HeaderCard{
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+}
+
+.Card h1 {
+  margin: 0;
+  color: white;
+  font-size: 45px;
+}
+
+.Card h3 {
+  margin-top: 50px;
+  margin-bottom: 4px;
+  font-size: 24px;
+  color: black;
+}
+
+.Card p {
+  font-size: 15px;
+  color: black;
+}
+
+.Red {
+  background-color: #F1C2B0;
+}
+
+.Yellow {
+  background-color:  #F9EB98;
+  ;
+}
+
+.Green {
+  background-color: #add8e6;
+}
+
+.Blue {
+  background-color: #6975E8;
+}
+
+/*Contato*/
+.AllContato{
+  min-height: calc(50vh - 100px);
+  padding: 20px;
+  margin: 10px;
+  margin-top: 80px;
+}
+
+/*Content Contato*/
+.ContentContato {
+  width: 30%;
+}
+
+.ContentImgContato{
+  display: flex;
+  flex-direction: row;
+}
+
+.ImgContato{
+  margin: 15px;
+  font-family: 'Roboto Mono';
+}
+
+/*Form Contato*/
+.Nome{
+  display: flex;
+  flex-direction: row;
+}
+ 
+.Nome label{
+  align-self: center;
+  font-family: 'Roboto Mono';
+}
+ 
+.Email{
+  display: flex;
+  flex-direction: row;
+  
+}
+ 
+.Email label{
+  align-self: center;
+  font-family: 'Roboto Mono';
+  font-size: 14px;
+}
+
+.Mensagem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  
+
+}
+ 
+.Mensagem label{
+  align-self: flex-start;
+  font-family: 'Roboto Mono';
+}
+ 
+.Mensagem input{
+  height: 100px;
+  margin-left: 30px;
+  
+}
+
+/*Linha Vertical*/
+.VetLine{
+  height: 500px;
+  border-left: 2px solid;
+  color: rgb(170, 170, 170);
+}
