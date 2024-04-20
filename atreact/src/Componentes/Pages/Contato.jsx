@@ -8,7 +8,7 @@ export default function Contato(){
         <div className="AllContato">
             <div className="ContentContato">
                 <h2>Dúvidas e<br></br>suporte, entre<br></br>em contato:</h2>
-                <div className="ContenteImgContato">
+                <div className="ContentImgContato">
                     <div className="ImgContato">
                         <img src={TW} alt="twitter"/>
                     </div>

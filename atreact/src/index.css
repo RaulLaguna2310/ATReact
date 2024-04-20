@@ -48,7 +48,7 @@ nav a.active{
 }
 
 .mainButton{
-  width: 297px;
+  width: 300px;
     height: 60px;
     border-radius: 40px;
     background-color: #333333;
@@ -99,8 +99,8 @@ nav a.active{
 
 .Card h3 {
   margin-top: 50px;
-  margin-bottom: 4px;
-  font-size: 24px;
+  margin-bottom: 5px;
+  font-size: 25px;
   color: black;
 }
 
@@ -128,17 +128,14 @@ nav a.active{
 
 /*Contato*/
 .AllContato{
-  min-height: calc(50vh - 100px);
-  padding: 20px;
-  margin: 10px;
-  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
 }
 
-/*Content Contato*/
-.ContentContato {
-  width: 30%;
-}
-
+/*Content Cotato*/
 .ContentImgContato{
   display: flex;
   flex-direction: row;
@@ -149,37 +146,42 @@ nav a.active{
   font-family: 'Roboto Mono';
 }
 
+/*Linha Vertical*/
+.VetLine{
+  height: 500px;
+  border-left: 2px solid;
+  color: rgb(170, 170, 170);
+}
+
 /*Form Contato*/
 .Nome{
   display: flex;
   flex-direction: row;
 }
- 
-.Nome label{
-  align-self: center;
-  font-family: 'Roboto Mono';
-}
- 
+
 .Email{
   display: flex;
   flex-direction: row;
   
 }
- 
-.Email label{
+
+.Nome label{
   align-self: center;
   font-family: 'Roboto Mono';
-  font-size: 14px;
 }
 
 .Mensagem {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  
-
 }
  
+.Email label{
+  align-self: center;
+  font-family: 'Roboto Mono';
+  font-size: 15px;
+}
+
 .Mensagem label{
   align-self: flex-start;
   font-family: 'Roboto Mono';
@@ -188,12 +190,58 @@ nav a.active{
 .Mensagem input{
   height: 100px;
   margin-left: 30px;
-  
 }
 
-/*Linha Vertical*/
-.VetLine{
-  height: 500px;
-  border-left: 2px solid;
-  color: rgb(170, 170, 170);
+.TxtBoxMsg{
+  margin: 20px 20px;
+  margin-right: 0px;
+  width: 340px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(187, 187, 187);
+  border: 0 none;
+  outline: 0;
+  align-items: center;
+}
+
+.TxtBox{
+  margin: 20px 20px;
+  margin-right: 0px;
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(187, 187, 187);
+  border: 0 none;
+  outline: 0;
+  align-items: center;
+}
+
+.FormButton{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+button{
+  width: 150px;
+  border: none;
+  background-color: #6975E8 ;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+ 
+
+#ContEmail{
+  text-align: center;
+}
+
+#ContEmail form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
